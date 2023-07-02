@@ -49,12 +49,12 @@ const LinksData = ({ category }) => {
                         {onion.map(it => {
                             return (
                                 <a target='_blank' key={`${it.id}on`} className='mb10 links-list-item-popup' href={it.value}>
-                                    <div style={{
+                                    {/* <div style={{
                                         padding: 5,
                                         borderRadius: '50%',
                                         backgroundColor: it.isWork ? 'green' : 'red',
                                         marginRight: 10,
-                                    }}></div>
+                                    }}></div> */}
                                     <div className='links-list-item-popup-title'>{it.value}</div>
                                 </a>
                             )
@@ -66,12 +66,12 @@ const LinksData = ({ category }) => {
                         {telegram.map(it => {
                             return (
                                 <a target='_blank' key={`${it.id}tg`} className='mb10 links-list-item-popup' href={it.value}>
-                                    <div style={{
+                                    {/* <div style={{
                                         padding: 5,
                                         borderRadius: '50%',
                                         backgroundColor: it.isWork ? 'green' : 'red',
                                         marginRight: 10,
-                                    }}></div>
+                                    }}></div> */}
                                     <div className='links-list-item-popup-title'>{it.value}</div>
                                 </a>
                             )
@@ -82,12 +82,12 @@ const LinksData = ({ category }) => {
                         {clearNet.map(it => {
                             return (
                                 <a target='_blank' key={`${it.id}cl`} className='mb10 links-list-item-popup' href={it.value}>
-                                    <div style={{
+                                    {/* <div style={{
                                         padding: 5,
                                         borderRadius: '50%',
                                         backgroundColor: it.isWork ? 'green' : 'red',
                                         marginRight: 10,
-                                    }}></div>
+                                    }}></div> */}
                                     <div className='links-list-item-popup-title'>{it.value}</div>
                                 </a>
                             )
