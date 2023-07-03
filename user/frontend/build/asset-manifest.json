@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5ae50c9.css",
+    "main.js": "/static/js/main.32c17cff.js",
+    "static/media/worldWide.png": "/static/media/worldWide.e48761861a322b282cb5.png",
+    "static/media/тг.png": "/static/media/тг.b1f570f993e388ef45d9.png",
+    "static/media/Маркетплейсы.png": "/static/media/Маркетплейсы.6defdcf93e2012f320cd.png",
+    "static/media/cart.png": "/static/media/cart.e4bcbc6eb11836c863f0.png",
+    "static/media/chat.png": "/static/media/chat.304c230482bb77e5450e.png",
+    "static/media/cis.png": "/static/media/cis.01f66dcff91cd2de756d.png",
+    "static/media/Обменники.png": "/static/media/Обменники.620eaf1fa7d350ef9235.png",
+    "static/media/photo.png": "/static/media/photo.a405dc4bf285229b7b5a.png",
+    "index.html": "/index.html",
+    "main.e5ae50c9.css.map": "/static/css/main.e5ae50c9.css.map",
+    "main.32c17cff.js.map": "/static/js/main.32c17cff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5ae50c9.css",
+    "static/js/main.32c17cff.js"
+  ]
+}
