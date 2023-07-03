@@ -3,6 +3,7 @@ import { routes } from './data';
 import LayoutContainer from '../../layout';
 import { useEffect } from 'react';
 import { setCountFc } from '../../API/setCountFc';
+import Autorization from '../../pages/Autorization';
 
 const RoutesList = () => {
     useEffect(() => {
@@ -22,7 +23,10 @@ const RoutesList = () => {
                         </Route>
                     )
                 })}
-                {/* <Route element={Error404}/> */}
+                <Route
+                    path='/'
+                    element={<Autorization />}
+                />
             </Routes>
         </Router>
     );
