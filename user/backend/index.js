@@ -46,7 +46,7 @@ mongoose.set('strictQuery', false);
 const start = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://Doroshkeviches:Doroshkeviches@cluster0.reh70fb.mongodb.net/`
+      `mongodb+srv://marciabridges290:qcFIkTXiKm08luYZ@cluster0.croomlt.mongodb.net/`
     );
     app.listen(PORT, () => console.log(`server start on port ${PORT}`));
   } catch (e) {
